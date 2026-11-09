@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en" class="js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fertility Programs | NewKind</title>
+<meta name="description" content="A personalised 90-day fertility programme for couples — root-cause guidance, nutrition, fertility yoga, stress regulation and doctor support.">
+<meta name="theme-color" content="#242833">
+<meta property="og:title" content="Fertility Programs | NewKind">
+<meta property="og:description" content="A personalised 90-day fertility programme for couples — root-cause guidance, nutrition, fertility yoga, stress regulation and doctor support.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Sora:wght@300..700&display=swap" rel="stylesheet">
+<script>
+  // If animation libraries fail to load, show everything instead of leaving it hidden.
+  setTimeout(function(){ if(!window.gsap) { document.documentElement.classList.remove('js'); } }, 3500);
+  try { if (sessionStorage.getItem('nk-transition')) document.documentElement.classList.add('is-transitioning'); } catch(e) {}
+</script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/tailwind.css">
+<noscript><style>[data-reveal],[data-stagger]>*,[data-split],[data-hero-in]{visibility:visible!important}</style></noscript>
+</head>
+<body class="font-sans antialiased ">
+<a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[200] focus:bg-white focus:px-4 focus:py-2 focus:rounded-lg">Skip to content</a>
+<div id="progress" aria-hidden="true"></div>
+<div id="curtain" aria-hidden="true"></div>
+
+<header id="nav" data-theme="dark" class="nav-wrap fixed top-0 inset-x-0 z-50 px-3 sm:px-5 pt-4 sm:pt-6 flex justify-center pointer-events-none">
+  <div class="nav-shell nav-pill is-dark pointer-events-auto w-full xl:w-auto max-w-site rounded-full pl-5 pr-2 py-2 flex items-center justify-between gap-8">
+    <a href="index.html" class="inline-flex items-center " aria-label="NewKind home">
+  <span class="logo-mark h-[20px] sm:h-[22px]" role="img" aria-label="NewKind"></span></a>
+    <nav class="hidden xl:flex items-center gap-7" aria-label="Main">
+      <div class="dropdown">
+        <a href="fertility.html" class="nav-link is-active inline-flex items-center gap-1.5">Fertility<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></a>
+        <div class="dropdown-panel"><a href="fertility.html#natural-fertility">Natural Fertility<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a><a href="fertility.html#iui-ivf">IUI/IVF Preparation<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a><a href="fertility.html#egg-freezing">Egg Freezing Prep<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a><a href="fertility.html#pmos-balance">PMOS Balance<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a></div>
+      </div>
+      <div class="dropdown">
+        <a href="pregnancy-wellness.html" class="nav-link inline-flex items-center gap-1.5">Pregnancy<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></a>
+        <div class="dropdown-panel"><a href="pregnancy-wellness.html">Pregnancy Wellness<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a><a href="postpartum-recovery.html">Postpartum Recovery<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a></div>
+      </div>
+      <div class="dropdown">
+        <a href="weight-loss.html" class="nav-link inline-flex items-center gap-1.5">Weight Loss<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></a>
+        <div class="dropdown-panel"><a href="weight-loss.html#glp1">GLP-1 Weight Management<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a><a href="weight-loss.html#sustainable">Sustainable Weight Loss<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a></div>
+      </div>
+      <a href="index.html#about" class="nav-link">About Us</a>
+      <div class="dropdown">
+        <a href="journal.html" class="nav-link inline-flex items-center gap-1.5">Media<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></a>
+        <div class="dropdown-panel"><a href="journal.html">Journal<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a><a href="news-media.html">News &amp; Media<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a><a href="faqs.html">FAQs<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a></div>
+      </div>
+      <a href="contact.html" class="nav-link">Contact Us</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <button type="button" data-open-call class="btn-pill hidden sm:inline-flex">Book a call</button>
+      <button type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu" class="xl:hidden w-10 h-10 rounded-full grid place-items-center" aria-label="Open menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 8h16M4 16h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div id="mobile-menu" class="fixed inset-0 z-[60] bg-ink text-page xl:hidden flex flex-col" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="flex items-center justify-between px-6 pt-6">
+    <a href="index.html" class="inline-flex items-center " aria-label="NewKind home">
+  <span class="logo-mark h-[24px] sm:h-[26px]" role="img" aria-label="NewKind"></span></a>
+    <button type="button" data-menu-close class="w-11 h-11 rounded-xl grid place-items-center border border-white/15" aria-label="Close menu"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  </div>
+  <div class="flex-1 overflow-y-auto px-6 pt-8 pb-10" data-lenis-prevent>
+    <nav class="flex flex-col" aria-label="Mobile">
+        <div class="border-b border-white/10">
+          <button type="button" data-mm-sub aria-expanded="false" class="mm-link w-full flex items-center justify-between py-4 text-left">
+            <span class="text-[2.1rem] font-extrabold tracking-tight">Fertility</span>
+            <span class="mm-plus transition-transform duration-500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="h-0 overflow-hidden"><div class="pb-4 pl-1"><a href="fertility.html" class="block py-2 text-sage text-lg font-semibold">Overview</a><a href="fertility.html#natural-fertility" class="block py-2 text-page/70 hover:text-sage text-lg">Natural Fertility</a><a href="fertility.html#iui-ivf" class="block py-2 text-page/70 hover:text-sage text-lg">IUI/IVF Preparation</a><a href="fertility.html#egg-freezing" class="block py-2 text-page/70 hover:text-sage text-lg">Egg Freezing Prep</a><a href="fertility.html#pmos-balance" class="block py-2 text-page/70 hover:text-sage text-lg">PMOS Balance</a></div></div>
+        </div>
+        <div class="border-b border-white/10">
+          <button type="button" data-mm-sub aria-expanded="false" class="mm-link w-full flex items-center justify-between py-4 text-left">
+            <span class="text-[2.1rem] font-extrabold tracking-tight">Pregnancy</span>
+            <span class="mm-plus transition-transform duration-500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="h-0 overflow-hidden"><div class="pb-4 pl-1"><a href="pregnancy-wellness.html" class="block py-2 text-sage text-lg font-semibold">Overview</a><a href="pregnancy-wellness.html" class="block py-2 text-page/70 hover:text-sage text-lg">Pregnancy Wellness</a><a href="postpartum-recovery.html" class="block py-2 text-page/70 hover:text-sage text-lg">Postpartum Recovery</a></div></div>
+        </div>
+        <div class="border-b border-white/10">
+          <button type="button" data-mm-sub aria-expanded="false" class="mm-link w-full flex items-center justify-between py-4 text-left">
+            <span class="text-[2.1rem] font-extrabold tracking-tight">Weight Loss</span>
+            <span class="mm-plus transition-transform duration-500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="h-0 overflow-hidden"><div class="pb-4 pl-1"><a href="weight-loss.html" class="block py-2 text-sage text-lg font-semibold">Overview</a><a href="weight-loss.html#glp1" class="block py-2 text-page/70 hover:text-sage text-lg">GLP-1 Weight Management</a><a href="weight-loss.html#sustainable" class="block py-2 text-page/70 hover:text-sage text-lg">Sustainable Weight Loss</a></div></div>
+        </div>
+        <a href="index.html#about" class="mm-link border-b border-white/10 py-4"><span class="text-[2.1rem] font-extrabold tracking-tight">About Us</span></a>
+        <div class="border-b border-white/10">
+          <button type="button" data-mm-sub aria-expanded="false" class="mm-link w-full flex items-center justify-between py-4 text-left">
+            <span class="text-[2.1rem] font-extrabold tracking-tight">Media</span>
+            <span class="mm-plus transition-transform duration-500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="h-0 overflow-hidden"><div class="pb-4 pl-1"><a href="journal.html" class="block py-2 text-page/70 hover:text-sage text-lg">Journal</a><a href="news-media.html" class="block py-2 text-page/70 hover:text-sage text-lg">News &amp; Media</a><a href="faqs.html" class="block py-2 text-page/70 hover:text-sage text-lg">FAQs</a></div></div>
+        </div>
+        <a href="contact.html" class="mm-link border-b border-white/10 py-4"><span class="text-[2.1rem] font-extrabold tracking-tight">Contact Us</span></a>
+    </nav>
+    <div class="mt-10 space-y-4">
+      <button type="button" data-open-call data-mm-fade class="btn btn-primary w-full">Book a discovery call <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+      <div data-mm-fade class="flex flex-col gap-1 text-page/70 text-sm pt-4">
+        <a href="tel:+919135353535">+91 9135353535</a><a href="mailto:hr@newkind.com">hr@newkind.com</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<section data-hero class="relative">
+  <div data-hero-frame class="relative min-h-[92svh] md:min-h-[100svh] flex items-end overflow-hidden bg-ink text-page on-dark">
+    <div data-hero-media class="absolute inset-0 media grain"><img src="assets/program-fertility.jpg" alt="" fetchpriority="high" data-kenburns>
+      <div class="hero-glow" aria-hidden="true"></div></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/55 to-ink/25"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-ink/70 to-transparent"></div>
+    <div data-hero-content class="relative z-10 w-full max-w-site mx-auto px-5 sm:px-8 pt-40 pb-32 md:pb-40">
+      <div class="max-w-3xl">
+        <span class="pill bg-white/10 border border-white/20 backdrop-blur text-page" data-hero-in><span class="w-1.5 h-1.5 rounded-full bg-rose"></span>3 months of support</span>
+        <h1 class="h-display text-[clamp(2.8rem,7.4vw,6.4rem)] mt-6 text-balance" data-hero-in="split">We’ve helped couples <span class="accent-hero">conceive naturally.</span></h1>
+        <p class="mt-6 text-lg md:text-xl text-page/80 max-w-2xl text-pretty" data-hero-in>Most fertility challenges have a root cause — hormonal, nutritional, psychological or lifestyle. We identify your specific root cause and build a structured plan around it.</p>
+        <div class="mt-9 flex flex-wrap gap-3" data-hero-in="stagger"><a href="#programs" class="btn btn-primary" data-magnetic>Explore programs <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a><button type="button" data-open-call="Fertility" class="btn btn-secondary">Book a discovery call</button></div>
+      </div>
+    </div>
+  </div>
+  <div class="relative z-20 max-w-site mx-auto px-5 sm:px-8 -mt-16 md:-mt-20">
+    <div class="rounded-[24px] bg-page/95 backdrop-blur border border-ink/10 shadow-[0_30px_60px_-30px_rgba(36,40,51,.4)] grid grid-cols-2 md:grid-cols-4 divide-x divide-y md:divide-y-0 divide-ink/10" data-stagger="0.08"><div class="px-5 py-5 md:px-7 md:py-6">
+          <div class="text-xl md:text-2xl font-extrabold tracking-tight">Expert-led</div>
+          <div class="text-sm text-ink/60 mt-1">Personalised care</div></div><div class="px-5 py-5 md:px-7 md:py-6">
+          <div class="text-xl md:text-2xl font-extrabold tracking-tight">Root-cause</div>
+          <div class="text-sm text-ink/60 mt-1">Approach</div></div><div class="px-5 py-5 md:px-7 md:py-6">
+          <div class="text-xl md:text-2xl font-extrabold tracking-tight"><span data-count="100" data-suffix="%">100%</span></div>
+          <div class="text-sm text-ink/60 mt-1">Confidential</div></div><div class="px-5 py-5 md:px-7 md:py-6">
+          <div class="text-xl md:text-2xl font-extrabold tracking-tight"><span data-count="90">90</span> days</div>
+          <div class="text-sm text-ink/60 mt-1">Structured programme</div></div>
+    </div>
+  </div>
+</section>
+<section id="approach" class="relative bg-page pt-28 md:pt-36 pb-24 md:pb-32 overflow-hidden">
+  <div class="arcs" aria-hidden="true"><svg viewBox="0 0 1440 900" preserveAspectRatio="none" data-draw>
+  <path  d="M-40 820 C 260 520, 380 120, 160 -40"/>
+  <path  d="M1480 820 C 1180 520, 1060 120, 1280 -40"/>
+</svg></div>
+  <div class="relative z-10 max-w-site mx-auto px-5 sm:px-8 grid lg:grid-cols-12 gap-14 items-center">
+    <div class="lg:col-span-6">
+      <span class="eyebrow" data-reveal>Our approach</span>
+      <h2 class="h-section text-[clamp(2.2rem,4.6vw,3.8rem)] mt-5 text-balance" data-split>Understand your health. Explore the factors that matter. <span class="accent">Decide what comes next.</span></h2>
+      <p class="mt-6 text-ink/70 text-lg text-pretty" data-reveal>Most fertility challenges have a root cause — hormonal, nutritional, psychological or lifestyle. We identify yours and build a structured plan around it.</p>
+      <ul class="mt-8 border-t border-ink/10" data-stagger="0.08"><li class="flex items-start gap-4 py-5 border-b border-ink/10"><span class="tick mt-0.5"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><span class="text-lg font-semibold">Personalised guidance for both partners</span></li><li class="flex items-start gap-4 py-5 border-b border-ink/10"><span class="tick mt-0.5"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><span class="text-lg font-semibold">Medical guidance and report reviews</span></li><li class="flex items-start gap-4 py-5 border-b border-ink/10"><span class="tick mt-0.5"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><span class="text-lg font-semibold">Nutrition and lifestyle support</span></li><li class="flex items-start gap-4 py-5 border-b border-ink/10"><span class="tick mt-0.5"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span><span class="text-lg font-semibold">A programme designed to complement medical care</span></li></ul>
+    </div>
+    <div class="lg:col-span-6 relative">
+      <div class="media rounded-[30px] aspect-[5/6]" data-img-reveal><img src="assets/fertility/program-doctor.jpg" alt="A NewKind doctor consultation" loading="lazy"></div>
+      <div class="absolute -left-4 md:-left-10 bottom-10 rounded-2xl bg-ink text-page p-5 w-64 shadow-2xl" data-reveal="left" data-delay=".3">
+        <div class="text-xs uppercase tracking-[.2em] text-sage font-bold">Both partners</div>
+        <p class="mt-2 font-bold leading-snug">Fertility is a shared journey — your plan considers you both.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="stories" class="relative bg-ink text-page py-24 md:py-32 overflow-hidden on-dark">
+  <div class="absolute -top-40 right-0 w-[700px] h-[500px] rounded-full bg-rose/20 blur-[140px] pointer-events-none"></div>
+  <div class="relative z-10 max-w-site mx-auto px-5 sm:px-8 flex flex-col md:flex-row md:items-end justify-between gap-6">
+    <div class="max-w-2xl">
+      <span class="eyebrow !text-sage" data-reveal>Good news</span>
+      <h2 class="h-section text-[clamp(2.3rem,5vw,4.2rem)] mt-5 text-balance" data-split>Real couples. <span class="accent-light">Real journeys.</span></h2>
+    </div>
+    <p class="text-page/60 max-w-md" data-reveal>Every fertility situation is different. Faces are blurred and personal information is hidden to protect the privacy of the couples we work with.</p>
+  </div>
+  <div class="relative z-10 mt-14 marquee fade-edges" data-marquee data-speed="55" data-pause-hover>
+    <div class="marquee-track gap-5 pr-5">
+        <article class="card-dark glow w-[300px] sm:w-[340px] shrink-0 rounded-[26px] p-7 flex flex-col min-h-[300px]">
+          <div class="flex items-center gap-2 text-sage text-sm font-bold"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg> Good news</div>
+          <div class="mt-8 text-page/60 text-sm font-semibold uppercase tracking-wider">Conceived in</div>
+          <div class="text-5xl font-extrabold tracking-[-0.04em] mt-1">2 months</div>
+          <div class="mt-auto pt-8 border-t border-white/10">
+            <p class="font-semibold">Unexplained infertility</p>
+            <p class="text-sm text-page/55 mt-1">TTC 2 years</p>
+          </div>
+        </article>
+        <article class="card-dark glow w-[300px] sm:w-[340px] shrink-0 rounded-[26px] p-7 flex flex-col min-h-[300px]">
+          <div class="flex items-center gap-2 text-sage text-sm font-bold"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg> Good news</div>
+          <div class="mt-8 text-page/60 text-sm font-semibold uppercase tracking-wider">Conceived in</div>
+          <div class="text-5xl font-extrabold tracking-[-0.04em] mt-1">90 days</div>
+          <div class="mt-auto pt-8 border-t border-white/10">
+            <p class="font-semibold">Failed IVF cycle</p>
+            <p class="text-sm text-page/55 mt-1">90-day reset</p>
+          </div>
+        </article>
+        <article class="card-dark glow w-[300px] sm:w-[340px] shrink-0 rounded-[26px] p-7 flex flex-col min-h-[300px]">
+          <div class="flex items-center gap-2 text-sage text-sm font-bold"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg> Good news</div>
+          <div class="mt-8 text-page/60 text-sm font-semibold uppercase tracking-wider">Conceived in</div>
+          <div class="text-5xl font-extrabold tracking-[-0.04em] mt-1">3 months</div>
+          <div class="mt-auto pt-8 border-t border-white/10">
+            <p class="font-semibold">Low sperm motility &amp; morphology</p>
+            <p class="text-sm text-page/55 mt-1">TTC 4 years</p>
+          </div>
+        </article>
+        <article class="card-dark glow w-[300px] sm:w-[340px] shrink-0 rounded-[26px] p-7 flex flex-col min-h-[300px]">
+          <div class="flex items-center gap-2 text-sage text-sm font-bold"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg> Good news</div>
+          <div class="mt-8 text-page/60 text-sm font-semibold uppercase tracking-wider">Conceived in</div>
+          <div class="text-5xl font-extrabold tracking-[-0.04em] mt-1">4 months</div>
+          <div class="mt-auto pt-8 border-t border-white/10">
+            <p class="font-semibold">Low AMH 0.89 + 5 failed IUIs</p>
+            <p class="text-sm text-page/55 mt-1">TTC 6 years</p>
+          </div>
+        </article>
+        <article class="card-dark glow w-[300px] sm:w-[340px] shrink-0 rounded-[26px] p-7 flex flex-col min-h-[300px]">
+          <div class="flex items-center gap-2 text-sage text-sm font-bold"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg> Good news</div>
+          <div class="mt-8 text-page/60 text-sm font-semibold uppercase tracking-wider">Conceived in</div>
+          <div class="text-5xl font-extrabold tracking-[-0.04em] mt-1">5 weeks</div>
+          <div class="mt-auto pt-8 border-t border-white/10">
+            <p class="font-semibold">Low AMH 0.74 ng/mL + Thyroid + Tubal issue</p>
+            
+          </div>
+        </article>
+        <article class="card-dark glow w-[300px] sm:w-[340px] shrink-0 rounded-[26px] p-7 flex flex-col min-h-[300px]">
+          <div class="flex items-center gap-2 text-sage text-sm font-bold"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg> Good news</div>
+          <div class="mt-8 text-page/60 text-sm font-semibold uppercase tracking-wider">Conceived in</div>
+          <div class="text-5xl font-extrabold tracking-[-0.04em] mt-1">3 months</div>
+          <div class="mt-auto pt-8 border-t border-white/10">
+            <p class="font-semibold">Failed IUI 2024 + Failed IVF 2025</p>
+            <p class="text-sm text-page/55 mt-1">TTC 7 years</p>
+          </div>
+        </article>
+    </div>
+  </div>
+</section>
+<section id="programs" class="relative bg-sage-50 py-24 md:py-32">
+  <div class="max-w-site mx-auto px-5 sm:px-8">
+    <div class="text-center max-w-3xl mx-auto">
+      <span class="eyebrow center" data-reveal>Fertility programs</span>
+      <h2 class="h-section text-[clamp(2.3rem,5vw,4.2rem)] mt-5 text-balance" data-split>A programme for <span class="accent">where you are.</span></h2>
+      <p class="mt-5 text-ink/70 text-lg text-pretty" data-reveal>Understanding your individual circumstances is an important step towards making informed decisions about your care.</p>
+    </div>
+    <div class="mt-20 space-y-24 md:space-y-32">
+      <article id="natural-fertility" class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center scroll-mt-28">
+        <div class="">
+          <div class="media alt rounded-[30px] aspect-[5/4]" data-img-reveal><img src="assets/fertility/program-natural-fertility.png" alt="Natural Fertility program" loading="lazy"></div>
+        </div>
+        <div>
+          <span class="text-rose font-extrabold text-sm tracking-[.2em]" data-reveal>PROGRAM 01</span>
+          <h3 class="mt-4 text-[clamp(2rem,4vw,3.2rem)] font-extrabold tracking-[-0.035em] leading-[1.02]" data-split>Natural Fertility</h3>
+          <p class="mt-5 text-ink/70 text-lg leading-relaxed text-pretty" data-reveal>For couples trying to conceive naturally. We identify the root causes that may be holding you back — hormonal, nutritional, psychological or lifestyle — and build a structured 90-day plan for both partners.</p>
+          <div class="mt-6 flex flex-wrap gap-2" data-reveal><span class="pill bg-white border border-ink/10">Root-cause assessment</span><span class="pill bg-white border border-ink/10">Plans for both partners</span><span class="pill bg-white border border-ink/10">Cycle &amp; lifestyle guidance</span></div>
+          <button type="button" data-open-call="Fertility" class="btn btn-primary mt-8" data-reveal>Book a discovery call <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+        </div>
+      </article>
+      <article id="iui-ivf" class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center scroll-mt-28">
+        <div class="lg:order-last">
+          <div class="media alt rounded-[30px] aspect-[5/4]" data-img-reveal><img src="assets/fertility/program-iui-ivf.png" alt="IUI/IVF Preparation program" loading="lazy"></div>
+        </div>
+        <div>
+          <span class="text-rose font-extrabold text-sm tracking-[.2em]" data-reveal>PROGRAM 02</span>
+          <h3 class="mt-4 text-[clamp(2rem,4vw,3.2rem)] font-extrabold tracking-[-0.035em] leading-[1.02]" data-split>IUI/IVF Preparation</h3>
+          <p class="mt-5 text-ink/70 text-lg leading-relaxed text-pretty" data-reveal>Prepare your body and mind before your next treatment cycle. Designed to complement — never replace — the care of your fertility specialist.</p>
+          <div class="mt-6 flex flex-wrap gap-2" data-reveal><span class="pill bg-white border border-ink/10">Pre-cycle preparation</span><span class="pill bg-white border border-ink/10">Report reviews</span><span class="pill bg-white border border-ink/10">Stress regulation</span></div>
+          <button type="button" data-open-call="Fertility" class="btn btn-primary mt-8" data-reveal>Book a discovery call <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+        </div>
+      </article>
+      <article id="egg-freezing" class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center scroll-mt-28">
+        <div class="">
+          <div class="media alt rounded-[30px] aspect-[5/4]" data-img-reveal><img src="assets/fertility/program-egg-freezing.png" alt="Egg Freezing Preparation program" loading="lazy"></div>
+        </div>
+        <div>
+          <span class="text-rose font-extrabold text-sm tracking-[.2em]" data-reveal>PROGRAM 03</span>
+          <h3 class="mt-4 text-[clamp(2rem,4vw,3.2rem)] font-extrabold tracking-[-0.035em] leading-[1.02]" data-split>Egg Freezing Preparation</h3>
+          <p class="mt-5 text-ink/70 text-lg leading-relaxed text-pretty" data-reveal>Support your overall health in the months before egg freezing with nutrition, movement, stress support and medical guidance alongside your specialist.</p>
+          <div class="mt-6 flex flex-wrap gap-2" data-reveal><span class="pill bg-white border border-ink/10">Nutrition for egg health</span><span class="pill bg-white border border-ink/10">Movement &amp; yoga</span><span class="pill bg-white border border-ink/10">Medical guidance</span></div>
+          <button type="button" data-open-call="Fertility" class="btn btn-primary mt-8" data-reveal>Book a discovery call <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+        </div>
+      </article>
+      <article id="pmos-balance" class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center scroll-mt-28">
+        <div class="lg:order-last">
+          <div class="media alt rounded-[30px] aspect-[5/4]" data-img-reveal><img src="assets/fertility/program-pcos.png" alt="PMOS Balance program" loading="lazy"></div>
+        </div>
+        <div>
+          <span class="text-rose font-extrabold text-sm tracking-[.2em]" data-reveal>PROGRAM 04</span>
+          <h3 class="mt-4 text-[clamp(2rem,4vw,3.2rem)] font-extrabold tracking-[-0.035em] leading-[1.02]" data-split>PMOS Balance</h3>
+          <p class="mt-5 text-ink/70 text-lg leading-relaxed text-pretty" data-reveal>For women with PCOS/PMOS. Address the hormonal and metabolic factors behind irregular cycles and delayed ovulation with a structured, sustainable plan.</p>
+          <div class="mt-6 flex flex-wrap gap-2" data-reveal><span class="pill bg-white border border-ink/10">Cycle regulation support</span><span class="pill bg-white border border-ink/10">Metabolic &amp; weight guidance</span><span class="pill bg-white border border-ink/10">Sustainable habits</span></div>
+          <button type="button" data-open-call="Fertility" class="btn btn-primary mt-8" data-reveal>Book a discovery call <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<section id="concerns" class="relative bg-page py-24 md:py-32">
+  <div class="max-w-site mx-auto px-5 sm:px-8" data-tabs>
+    <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6">
+      <div class="max-w-2xl">
+        <span class="eyebrow" data-reveal>Concerns we support</span>
+        <h2 class="h-section text-[clamp(2.3rem,5vw,4rem)] mt-5 text-balance" data-split>Want to understand <span class="accent">your concern better?</span></h2>
+      </div>
+      <p class="text-ink/70 text-lg max-w-md" data-reveal>Fertility information can feel overwhelming — especially when you’re making sense of reports, diagnoses and conflicting advice.</p>
+    </div>
+    <div class="mt-10 flex gap-2 overflow-x-auto h-scroll pb-2" role="tablist" data-reveal data-lenis-prevent><button type="button" role="tab" data-tab="low-amh" aria-selected="true" class="tab-btn is-active">Low AMH</button><button type="button" role="tab" data-tab="pcod" aria-selected="false" class="tab-btn ">PCOD/PMOS</button><button type="button" role="tab" data-tab="miscarriage" aria-selected="false" class="tab-btn ">Miscarriage</button><button type="button" role="tab" data-tab="failed" aria-selected="false" class="tab-btn ">Failed IUI/IVF</button><button type="button" role="tab" data-tab="unexplained" aria-selected="false" class="tab-btn ">Unexplained infertility</button><button type="button" role="tab" data-tab="weight" aria-selected="false" class="tab-btn ">Weight concerns</button><button type="button" role="tab" data-tab="sperm" aria-selected="false" class="tab-btn ">Male factor</button></div>
+    <div class="mt-10">
+      <div data-panel="low-amh" role="tabpanel"  class="grid lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+        <div class="media alt rounded-[28px] aspect-[4/3]"><img src="assets/fertility/concern-low-amh.jpg" alt="Low AMH" loading="lazy"></div>
+        <div>
+          <span class="eyebrow" data-panel-in>Concern</span>
+          <h3 class="mt-4 text-[clamp(2rem,4vw,3.2rem)] font-extrabold tracking-[-0.035em] leading-none" data-panel-in>Low AMH</h3>
+          <p class="mt-6 text-ink/70 text-lg leading-relaxed text-pretty" data-panel-in>Being told you have low AMH can feel overwhelming. But AMH reflects egg quantity, not quality — and many women with low AMH can still conceive naturally with the right changes in egg health, cycle regulation, weight management and nutrition.</p>
+          <button type="button" data-open-call="Fertility" class="btn btn-secondary mt-8" data-panel-in>Talk to our team <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+      <div data-panel="pcod" role="tabpanel" hidden class="grid lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+        <div class="media alt rounded-[28px] aspect-[4/3]"><img src="assets/fertility/concern-pcod.jpg" alt="PCOD/PMOS" loading="lazy"></div>
+        <div>
+          <span class="eyebrow" data-panel-in>Concern</span>
+          <h3 class="mt-4 text-[clamp(2rem,4vw,3.2rem)] font-extrabold tracking-[-0.035em] leading-none" data-panel-in>PCOD/PMOS</h3>
+          <p class="mt-6 text-ink/70 text-lg leading-relaxed text-pretty" data-panel-in>PCOD/PMOS doesn’t have to be a barrier to conception. Irregular cycles and delayed ovulation can make pregnancy unpredictable, but addressing underlying hormonal imbalances can help regulate cycles and support conception. We’ve helped hundreds of women with PMOS conceive without fertility treatments.</p>
+          <button type="button" data-open-call="Fertility" class="btn btn-secondary mt-8" data-panel-in>Talk to our team <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+      <div data-panel="miscarriage" role="tabpanel" hidden class="grid lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+        <div class="media alt rounded-[28px] aspect-[4/3]"><img src="assets/fertility/concern-miscarriage.jpg" alt="Miscarriage" loading="lazy"></div>
+        <div>
+          <span class="eyebrow" data-panel-in>Concern</span>
+          <h3 class="mt-4 text-[clamp(2rem,4vw,3.2rem)] font-extrabold tracking-[-0.035em] leading-none" data-panel-in>Miscarriage</h3>
+          <p class="mt-6 text-ink/70 text-lg leading-relaxed text-pretty" data-panel-in>Experiencing a miscarriage can feel confusing and overwhelming. While around 50% may be due to random genetic errors, factors like hormone balance, egg and sperm quality, thyroid function and inflammation can also play a role. Identifying and addressing these can improve the chances of a healthy pregnancy.</p>
+          <button type="button" data-open-call="Fertility" class="btn btn-secondary mt-8" data-panel-in>Talk to our team <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+      <div data-panel="failed" role="tabpanel" hidden class="grid lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+        <div class="media alt rounded-[28px] aspect-[4/3]"><img src="assets/fertility/program-iui-ivf.png" alt="Failed IUI/IVF" loading="lazy"></div>
+        <div>
+          <span class="eyebrow" data-panel-in>Concern</span>
+          <h3 class="mt-4 text-[clamp(2rem,4vw,3.2rem)] font-extrabold tracking-[-0.035em] leading-none" data-panel-in>Failed IUI/IVF</h3>
+          <p class="mt-6 text-ink/70 text-lg leading-relaxed text-pretty" data-panel-in>A failed IUI or IVF cycle can feel exhausting, but it doesn’t mean the next one won’t work. It may point to underlying factors that need attention. Before your next treatment, take a pause to identify root causes, improve your body’s health and reassess key metrics.</p>
+          <button type="button" data-open-call="Fertility" class="btn btn-secondary mt-8" data-panel-in>Talk to our team <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+      <div data-panel="unexplained" role="tabpanel" hidden class="grid lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+        <div class="media alt rounded-[28px] aspect-[4/3]"><img src="assets/fertility/concern-unexplained.jpg" alt="Unexplained infertility" loading="lazy"></div>
+        <div>
+          <span class="eyebrow" data-panel-in>Concern</span>
+          <h3 class="mt-4 text-[clamp(2rem,4vw,3.2rem)] font-extrabold tracking-[-0.035em] leading-none" data-panel-in>Unexplained infertility</h3>
+          <p class="mt-6 text-ink/70 text-lg leading-relaxed text-pretty" data-panel-in>Unexplained infertility can feel helpless, especially when everything looks normal. Often, subtle factors like egg and sperm quality, timing, hormone balance or the uterine environment may still play a role. Identifying and addressing these can help many couples conceive naturally.</p>
+          <button type="button" data-open-call="Fertility" class="btn btn-secondary mt-8" data-panel-in>Talk to our team <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+      <div data-panel="weight" role="tabpanel" hidden class="grid lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+        <div class="media alt rounded-[28px] aspect-[4/3]"><img src="assets/fertility/concern-thyroid.jpg" alt="Weight concerns" loading="lazy"></div>
+        <div>
+          <span class="eyebrow" data-panel-in>Concern</span>
+          <h3 class="mt-4 text-[clamp(2rem,4vw,3.2rem)] font-extrabold tracking-[-0.035em] leading-none" data-panel-in>Weight concerns</h3>
+          <p class="mt-6 text-ink/70 text-lg leading-relaxed text-pretty" data-panel-in>Weight can affect fertility, but it’s not just about the number on the scale. Being underweight or overweight can disrupt hormonal balance and ovulation. The right nutrition, movement, training and sustainable lifestyle changes can support conception.</p>
+          <button type="button" data-open-call="Fertility" class="btn btn-secondary mt-8" data-panel-in>Talk to our team <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+      <div data-panel="sperm" role="tabpanel" hidden class="grid lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+        <div class="media alt rounded-[28px] aspect-[4/3]"><img src="assets/fertility/concern-sperm.jpg" alt="Male factor" loading="lazy"></div>
+        <div>
+          <span class="eyebrow" data-panel-in>Concern</span>
+          <h3 class="mt-4 text-[clamp(2rem,4vw,3.2rem)] font-extrabold tracking-[-0.035em] leading-none" data-panel-in>Male factor</h3>
+          <p class="mt-6 text-ink/70 text-lg leading-relaxed text-pretty" data-panel-in>Sperm count, motility or morphology issues can make fertilisation more difficult, but they can be improved. Nutrition, oxidative stress, lifestyle and overall health play a key role — and identifying conditions like infections or varicocele is equally important.</p>
+          <button type="button" data-open-call="Fertility" class="btn btn-secondary mt-8" data-panel-in>Talk to our team <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="included" data-hscroll class="relative bg-ink text-page overflow-hidden on-dark lg:h-screen lg:flex lg:items-center py-24 lg:py-0">
+  <div class="w-full">
+    <div class="lg:hidden px-5 sm:px-8 mb-10">
+      <span class="eyebrow !text-sage">What's included</span>
+      <h2 class="h-section text-[clamp(2.2rem,6vw,3.4rem)] mt-5">Everything you need, <span class="accent-light">in one place.</span></h2>
+    </div>
+    <div data-hscroll-track class="flex gap-5 px-5 sm:px-8 lg:pl-[max(2rem,calc((100vw-1320px)/2+2rem))] overflow-x-auto lg:overflow-visible snap-x snap-mandatory h-scroll" data-lenis-prevent-horizontal>
+      <div class="hidden lg:flex w-[460px] shrink-0 flex-col justify-center pr-10">
+        <span class="eyebrow !text-sage">What's included</span>
+        <h2 class="h-section text-[3.6rem] mt-5">Everything you need, <span class="accent-light">in one place.</span></h2>
+        <p class="mt-5 text-page/65 text-lg">To improve your fertility over 3 full months.</p>
+        <div class="mt-10 h-[2px] w-48 bg-white/10 overflow-hidden rounded"><div data-hscroll-bar class="h-full bg-rose origin-left"></div></div>
+      </div>
+        <article class="group w-[82vw] sm:w-[420px] lg:w-[440px] shrink-0 snap-start rounded-[28px] overflow-hidden card-dark">
+          <div class="media aspect-[16/11] zoom-img"><img src="assets/fertility/how-custom-nutrition-approved.jpg" alt="" loading="lazy"></div>
+          <div class="p-7">
+            <div class="flex items-center justify-between"><span class="text-sage font-extrabold text-sm tracking-[.2em]">01</span></div>
+            <h3 class="mt-3 text-3xl font-extrabold tracking-tight">Nutrition</h3>
+            <p class="mt-3 text-page/65 leading-relaxed">Monthly customised meal plans for you &amp; your partner for all three months — made according to your weight goals and fertility needs.</p>
+          </div>
+        </article>
+        <article class="group w-[82vw] sm:w-[420px] lg:w-[440px] shrink-0 snap-start rounded-[28px] overflow-hidden card-dark">
+          <div class="media aspect-[16/11] zoom-img"><img src="assets/fertility/how-fertility-yoga-approved.jpg" alt="" loading="lazy"></div>
+          <div class="p-7">
+            <div class="flex items-center justify-between"><span class="text-sage font-extrabold text-sm tracking-[.2em]">02</span></div>
+            <h3 class="mt-3 text-3xl font-extrabold tracking-tight">Fertility yoga</h3>
+            <p class="mt-3 text-page/65 leading-relaxed">Daily LIVE couple yoga classes with a fertility instructor, designed to improve circulation and support egg and sperm health.</p>
+          </div>
+        </article>
+        <article class="group w-[82vw] sm:w-[420px] lg:w-[440px] shrink-0 snap-start rounded-[28px] overflow-hidden card-dark">
+          <div class="media aspect-[16/11] zoom-img"><img src="assets/fertility/how-stress-regulation-approved.jpg" alt="" loading="lazy"></div>
+          <div class="p-7">
+            <div class="flex items-center justify-between"><span class="text-sage font-extrabold text-sm tracking-[.2em]">03</span></div>
+            <h3 class="mt-3 text-3xl font-extrabold tracking-tight">Stress regulation</h3>
+            <p class="mt-3 text-page/65 leading-relaxed">Weekend de-stress sessions with psychologists to calm your nervous system through meditation, breath work &amp; more.</p>
+          </div>
+        </article>
+        <article class="group w-[82vw] sm:w-[420px] lg:w-[440px] shrink-0 snap-start rounded-[28px] overflow-hidden card-dark">
+          <div class="media aspect-[16/11] zoom-img"><img src="assets/fertility/how-sex-intimacy-approved.jpg" alt="" loading="lazy"></div>
+          <div class="p-7">
+            <div class="flex items-center justify-between"><span class="text-sage font-extrabold text-sm tracking-[.2em]">04</span></div>
+            <h3 class="mt-3 text-3xl font-extrabold tracking-tight">Sex and intimacy</h3>
+            <p class="mt-3 text-page/65 leading-relaxed">Sessions with an expert to improve connection, reduce performance stress and support conception — so you can try every ovulation cycle.</p>
+          </div>
+        </article>
+        <article class="group w-[82vw] sm:w-[420px] lg:w-[440px] shrink-0 snap-start rounded-[28px] overflow-hidden card-dark">
+          <div class="media aspect-[16/11] zoom-img"><img src="assets/fertility/how-tracking-support-approved.jpg" alt="" loading="lazy"></div>
+          <div class="p-7">
+            <div class="flex items-center justify-between"><span class="text-sage font-extrabold text-sm tracking-[.2em]">05</span></div>
+            <h3 class="mt-3 text-3xl font-extrabold tracking-tight">Tracking &amp; support</h3>
+            <p class="mt-3 text-page/65 leading-relaxed">A private WhatsApp group with our team for you and your partner — to keep you accountable and answer your questions any time.</p>
+          </div>
+        </article>
+      <div class="hidden lg:block w-[10vw] shrink-0"></div>
+    </div>
+  </div>
+</section>
+<section id="team" class="relative bg-page py-24 md:py-32 overflow-hidden">
+  <div class="max-w-site mx-auto px-5 sm:px-8 text-center relative z-10">
+    <span class="eyebrow center" data-reveal>Our experts</span>
+    <h2 class="h-section text-[clamp(2.2rem,5vw,4rem)] mt-5 max-w-3xl mx-auto text-balance" data-split>Meet your <span class="accent">care team.</span></h2>
+    <p class="mt-5 text-ink/70 text-lg max-w-2xl mx-auto text-pretty" data-reveal>Fertility experts, nutritionists, yoga therapists, counsellors and care coordinators — one team, assigned to you.</p>
+  </div>
+  <div class="mt-14 marquee" data-marquee data-speed="45" data-pause-hover>
+    <div class="marquee-track gap-5 pr-5">
+      <article class="group relative w-[270px] sm:w-[300px] shrink-0 rounded-[24px] overflow-hidden">
+        <div class="media alt aspect-[4/5] zoom-img"><img src="assets/care-sandeep.png" alt="Dr. Sandeep Karunakaran, Medical Director" loading="lazy"></div>
+        <span class="pill absolute top-4 right-4 bg-sage text-ink">30+ yrs</span>
+        <div class="absolute inset-x-0 bottom-0 p-5 pt-16 bg-gradient-to-t from-ink/95 via-ink/60 to-transparent text-page">
+          <h3 class="font-extrabold text-lg leading-tight">Dr. Sandeep Karunakaran</h3>
+          <p class="text-sm text-page/80 mt-1">Medical Director</p>
+          <p class="text-xs text-sage font-semibold mt-1 uppercase tracking-wider">Reproductive Specialists</p>
+        </div>
+      </article>
+      <article class="group relative w-[270px] sm:w-[300px] shrink-0 rounded-[24px] overflow-hidden">
+        <div class="media alt aspect-[4/5] zoom-img"><img src="assets/care-keerthana.png" alt="Dr. Keerthana Vemula, Reproductive Endocrinologist" loading="lazy"></div>
+        <span class="pill absolute top-4 right-4 bg-sage text-ink">12+ yrs</span>
+        <div class="absolute inset-x-0 bottom-0 p-5 pt-16 bg-gradient-to-t from-ink/95 via-ink/60 to-transparent text-page">
+          <h3 class="font-extrabold text-lg leading-tight">Dr. Keerthana Vemula</h3>
+          <p class="text-sm text-page/80 mt-1">Reproductive Endocrinologist</p>
+          <p class="text-xs text-sage font-semibold mt-1 uppercase tracking-wider">Reproductive Specialists</p>
+        </div>
+      </article>
+      <article class="group relative w-[270px] sm:w-[300px] shrink-0 rounded-[24px] overflow-hidden">
+        <div class="media alt aspect-[4/5] zoom-img"><img src="assets/care-sanketh.png" alt="Sanketh Dhumal Satya, Head of Embryology" loading="lazy"></div>
+        <span class="pill absolute top-4 right-4 bg-sage text-ink">13+ yrs</span>
+        <div class="absolute inset-x-0 bottom-0 p-5 pt-16 bg-gradient-to-t from-ink/95 via-ink/60 to-transparent text-page">
+          <h3 class="font-extrabold text-lg leading-tight">Sanketh Dhumal Satya</h3>
+          <p class="text-sm text-page/80 mt-1">Head of Embryology</p>
+          <p class="text-xs text-sage font-semibold mt-1 uppercase tracking-wider">Embryologist</p>
+        </div>
+      </article>
+      <article class="group relative w-[270px] sm:w-[300px] shrink-0 rounded-[24px] overflow-hidden">
+        <div class="media alt aspect-[4/5] zoom-img"><img src="assets/doctor-testimonial.jpg" alt="Dr. Mukesh Chowdary, Women's Health Specialist" loading="lazy"></div>
+        <span class="pill absolute top-4 right-4 bg-sage text-ink">18+ yrs</span>
+        <div class="absolute inset-x-0 bottom-0 p-5 pt-16 bg-gradient-to-t from-ink/95 via-ink/60 to-transparent text-page">
+          <h3 class="font-extrabold text-lg leading-tight">Dr. Mukesh Chowdary</h3>
+          <p class="text-sm text-page/80 mt-1">Women's Health Specialist</p>
+          <p class="text-xs text-sage font-semibold mt-1 uppercase tracking-wider">Reproductive Specialists</p>
+        </div>
+      </article>
+      <article class="group relative w-[270px] sm:w-[300px] shrink-0 rounded-[24px] overflow-hidden">
+        <div class="media alt aspect-[4/5] zoom-img"><img src="assets/care-fourth.png" alt="Dr. Rohan Mehta, Fertility Specialist" loading="lazy"></div>
+        <span class="pill absolute top-4 right-4 bg-sage text-ink">15+ yrs</span>
+        <div class="absolute inset-x-0 bottom-0 p-5 pt-16 bg-gradient-to-t from-ink/95 via-ink/60 to-transparent text-page">
+          <h3 class="font-extrabold text-lg leading-tight">Dr. Rohan Mehta</h3>
+          <p class="text-sm text-page/80 mt-1">Fertility Specialist</p>
+          <p class="text-xs text-sage font-semibold mt-1 uppercase tracking-wider">Reproductive Medicine</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<section id="faqs" class="relative bg-page py-24 md:py-32">
+  <div class="max-w-site mx-auto px-5 sm:px-8 grid lg:grid-cols-12 gap-12 lg:gap-16">
+    <div class="lg:col-span-5 lg:sticky lg:top-32 self-start">
+      <span class="eyebrow" data-reveal>FAQs</span>
+      <h2 class="h-section text-[clamp(2.2rem,4.6vw,3.8rem)] mt-5 text-balance" data-split>Frequently asked <span class="accent">questions.</span></h2>
+      <p class="mt-5 text-ink/70 text-lg text-pretty" data-reveal>Every fertility situation is different. Here’s what couples most often ask us.</p>
+      
+      <div class="mt-10 rounded-[24px] bg-ink text-page p-7 on-dark" data-reveal>
+        <p class="font-bold text-lg">Still have questions?</p>
+        <p class="text-page/70 mt-2 text-sm leading-relaxed">Every situation is different. Speak with our team to understand the programme and whether it may be right for you.</p>
+        <button type="button" data-open-call class="btn btn-primary btn-sm mt-5">Book a discovery call <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+      </div>
+    </div>
+    <div class="lg:col-span-7 border-t border-ink/10" data-faq="open-first">
+      <div class="faq-item">
+        <button type="button" class="w-full flex items-start justify-between gap-6 py-6 text-left" aria-expanded="false">
+          <span class="faq-q text-lg md:text-xl font-bold tracking-tight">What is NewKind Fertility?</span>
+          <span class="faq-icon mt-0.5 shrink-0 w-9 h-9 rounded-full border border-ink/20 grid place-items-center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+        </button>
+        <div class="faq-body"><p class="pb-6 pr-14 text-ink/70 leading-relaxed text-pretty">NewKind Fertility is a personalised 90-day programme combining medical guidance, nutrition, yoga, stress management and ongoing support for individuals and couples navigating fertility concerns. It complements appropriate medical care rather than replacing fertility evaluation or treatment.</p></div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="w-full flex items-start justify-between gap-6 py-6 text-left" aria-expanded="false">
+          <span class="faq-q text-lg md:text-xl font-bold tracking-tight">What does the 90-day programme include?</span>
+          <span class="faq-icon mt-0.5 shrink-0 w-9 h-9 rounded-full border border-ink/20 grid place-items-center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+        </button>
+        <div class="faq-body"><p class="pb-6 pr-14 text-ink/70 leading-relaxed text-pretty">Depending on your needs and confirmed services, the programme may include personalised nutrition guidance, live yoga and meditation, stress-management support, doctor Q&amp;A sessions, supplement guidance, report reviews and individualised lifestyle recommendations.</p></div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="w-full flex items-start justify-between gap-6 py-6 text-left" aria-expanded="false">
+          <span class="faq-q text-lg md:text-xl font-bold tracking-tight">Who can join the programme?</span>
+          <span class="faq-icon mt-0.5 shrink-0 w-9 h-9 rounded-full border border-ink/20 grid place-items-center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+        </button>
+        <div class="faq-body"><p class="pb-6 pr-14 text-ink/70 leading-relaxed text-pretty">The programme may be suitable for individuals and couples trying to conceive, experiencing fertility concerns or seeking support alongside medical care. It considers the reproductive health needs of both partners. A discovery call can help determine whether it is right for you.</p></div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="w-full flex items-start justify-between gap-6 py-6 text-left" aria-expanded="false">
+          <span class="faq-q text-lg md:text-xl font-bold tracking-tight">Can NewKind support PCOS, low AMH and male fertility concerns?</span>
+          <span class="faq-icon mt-0.5 shrink-0 w-9 h-9 rounded-full border border-ink/20 grid place-items-center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+        </button>
+        <div class="faq-body"><p class="pb-6 pr-14 text-ink/70 leading-relaxed text-pretty">NewKind may provide lifestyle guidance and support alongside appropriate medical evaluation for concerns such as PCOS, low AMH and male reproductive factors. Individual circumstances vary, and improvements in fertility markers or pregnancy outcomes cannot be guaranteed.</p></div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="w-full flex items-start justify-between gap-6 py-6 text-left" aria-expanded="false">
+          <span class="faq-q text-lg md:text-xl font-bold tracking-tight">Can we join while undergoing IVF, IUI or other fertility treatment?</span>
+          <span class="faq-icon mt-0.5 shrink-0 w-9 h-9 rounded-full border border-ink/20 grid place-items-center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+        </button>
+        <div class="faq-body"><p class="pb-6 pr-14 text-ink/70 leading-relaxed text-pretty">Yes. NewKind is designed to complement appropriate fertility care, not replace IVF, IUI or other indicated treatments. Discuss additional recommendations with your treating fertility specialist, and do not delay recommended medical treatment.</p></div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="w-full flex items-start justify-between gap-6 py-6 text-left" aria-expanded="false">
+          <span class="faq-q text-lg md:text-xl font-bold tracking-tight">Do we need fertility tests before joining?</span>
+          <span class="faq-icon mt-0.5 shrink-0 w-9 h-9 rounded-full border border-ink/20 grid place-items-center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+        </button>
+        <div class="faq-body"><p class="pb-6 pr-14 text-ink/70 leading-relaxed text-pretty">Not necessarily. Existing reports and medical history can inform the initial discussion. Any additional testing depends on your circumstances and should be arranged through appropriate healthcare professionals.</p></div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="w-full flex items-start justify-between gap-6 py-6 text-left" aria-expanded="false">
+          <span class="faq-q text-lg md:text-xl font-bold tracking-tight">What support is provided throughout the 90 days?</span>
+          <span class="faq-icon mt-0.5 shrink-0 w-9 h-9 rounded-full border border-ink/20 grid place-items-center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+        </button>
+        <div class="faq-body"><p class="pb-6 pr-14 text-ink/70 leading-relaxed text-pretty">Depending on the confirmed programme structure, support may include check-ins, report reviews, doctor Q&amp;A sessions, nutrition guidance and scheduled yoga or stress-management sessions. The team can confirm the exact frequency and format before enrolment.</p></div>
+      </div>
+      <div class="faq-item">
+        <button type="button" class="w-full flex items-start justify-between gap-6 py-6 text-left" aria-expanded="false">
+          <span class="faq-q text-lg md:text-xl font-bold tracking-tight">Does NewKind guarantee pregnancy within 90 days?</span>
+          <span class="faq-icon mt-0.5 shrink-0 w-9 h-9 rounded-full border border-ink/20 grid place-items-center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+        </button>
+        <div class="faq-body"><p class="pb-6 pr-14 text-ink/70 leading-relaxed text-pretty">No. Fertility outcomes depend on many factors, including age, reproductive health, underlying conditions and medical treatment needs. NewKind provides structured support but cannot guarantee pregnancy within any particular timeframe.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="relative px-3 sm:px-5 pb-3 sm:pb-5 bg-page">
+  <div class="relative rounded-[28px] md:rounded-[36px] overflow-hidden bg-ink text-page on-dark">
+    <div class="absolute inset-0 media grain" data-parallax="16"><img src="assets/fertility/program-doctor.jpg" alt="" loading="lazy" class="opacity-40"></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-ink/40"></div>
+    <div class="relative z-10 max-w-4xl mx-auto px-6 py-24 md:py-36 text-center">
+      <span class="eyebrow center !text-sage" data-reveal>Fertility</span>
+      <h2 class="h-display text-[clamp(2.4rem,6vw,5.2rem)] mt-6 text-balance" data-split>Clarity about <span class="accent-light">your next steps.</span></h2>
+      <p class="mt-6 text-page/75 text-lg max-w-2xl mx-auto text-pretty" data-reveal>Let’s talk about where you are, what support you need and whether NewKind Fertility is the right fit for you.</p>
+      <div class="mt-10 flex flex-wrap justify-center gap-3" data-reveal>
+        <button type="button" data-open-call class="btn btn-primary" data-magnetic>Book a discovery call <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+        <a href="contact.html" class="btn btn-secondary">Contact us <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="relative bg-page px-3 sm:px-5 pb-3 sm:pb-5">
+  <div class="footer-panel relative overflow-hidden rounded-[28px] md:rounded-[36px] text-white on-dark">
+    <div class="why-glow why-glow-a" aria-hidden="true"></div>
+    <div class="why-glow why-glow-b" aria-hidden="true"></div>
+    <div class="relative z-10 max-w-site mx-auto px-6 sm:px-10 lg:px-14 pt-16 md:pt-24">
+      <div class="grid lg:grid-cols-12 gap-10 lg:gap-16 items-end pb-14 md:pb-16 border-b border-white/10">
+        <div class="lg:col-span-7" data-reveal>
+          <a href="index.html" class="inline-flex items-center text-white" aria-label="NewKind home"><span class="logo-mark h-[28px]" role="img" aria-label="NewKind"></span></a>
+          <h2 class="footer-title mt-10">Healthcare that’s <em>built around you.</em></h2>
+        </div>
+        <div class="lg:col-span-5" data-reveal data-delay=".1">
+          <p class="text-white/70 text-lg leading-relaxed max-w-md">Not sure where to start? Speak with our team and we’ll help you find the right program.</p>
+          <div class="mt-7 flex flex-wrap gap-3">
+            <button type="button" data-open-call class="btn btn-primary">Book a discovery call <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+            <a href="contact.html" class="footer-ghost">Contact us</a>
+          </div>
+        </div>
+      </div>
+      <div class="grid lg:grid-cols-12 gap-12 lg:gap-10 py-14 md:py-16">
+        <div class="lg:col-span-4" data-reveal>
+          <h3 class="footer-label">Get in touch</h3>
+          <ul class="footer-contact mt-6 space-y-4">
+            <li><span class="footer-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></span><span>Madhapur, Hi-tech City,<br>Hyderabad - 500082</span></li>
+            <li><span class="footer-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span><a href="tel:+919135353535" class="footer-link">+91 9135353535</a></li>
+            <li><span class="footer-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><a href="mailto:hr@newkind.com" class="footer-link">hr@newkind.com</a></li>
+          </ul>
+          <div class="footer-social mt-8"><a href="#" aria-label="NewKind on LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg></a><a href="#" aria-label="NewKind on Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5v.01"/></svg></a><a href="#" aria-label="NewKind on X"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4l16 16M20 4 4 20"/></svg></a><a href="#" aria-label="NewKind on YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="m10 9.5 5 2.5-5 2.5z"/></svg></a><a href="#" aria-label="NewKind on Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h-2.5A3.5 3.5 0 0 0 9 6.5V10H6.5v3.5H9V21h3.5v-7.5H15l.5-3.5h-3V7a1 1 0 0 1 1-1H15z"/></svg></a></div>
+        </div>
+        <div class="lg:col-span-8 grid grid-cols-2 md:grid-cols-3 gap-10" data-stagger="0.08">
+          <div>
+            <h3 class="footer-label">Company</h3>
+            <ul class="mt-6 space-y-3.5"><li><a href="index.html#about" class="footer-link">About</a></li><li><a href="index.html#how-it-works" class="footer-link">How it works</a></li><li><a href="journal.html" class="footer-link">Journal</a></li><li><a href="news-media.html" class="footer-link">News &amp; media</a></li><li><a href="faqs.html" class="footer-link">FAQs</a></li><li><a href="contact.html" class="footer-link">Contact us</a></li></ul>
+          </div>
+          <div>
+            <h3 class="footer-label">Programs</h3>
+            <ul class="mt-6 space-y-3.5"><li><a href="fertility.html#natural-fertility" class="footer-link">Natural Fertility</a></li><li><a href="fertility.html#iui-ivf" class="footer-link">IUI/IVF Preparation</a></li><li><a href="fertility.html#egg-freezing" class="footer-link">Egg Freezing Prep</a></li><li><a href="fertility.html#pmos-balance" class="footer-link">PMOS Balance</a></li><li><a href="pregnancy-wellness.html" class="footer-link">Pregnancy Wellness</a></li><li><a href="postpartum-recovery.html" class="footer-link">Postpartum Recovery</a></li><li><a href="weight-loss.html#glp1" class="footer-link">GLP-1 Weight Management</a></li><li><a href="weight-loss.html#sustainable" class="footer-link">Sustainable Weight Loss</a></li></ul>
+          </div>
+          <div>
+            <h3 class="footer-label">Policies</h3>
+            <ul class="mt-6 space-y-3.5"><li><a href="#" class="footer-link">Disclaimer</a></li><li><a href="#" class="footer-link">Terms &amp; Conditions</a></li><li><a href="#" class="footer-link">Privacy Policy</a></li><li><a href="#" class="footer-link">Refund Policy</a></li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom flex flex-col md:flex-row md:items-center justify-between gap-5 border-t border-white/10 text-sm text-white/55">
+        <p>© <span data-year>2026</span> NewKind. All rights reserved.</p>
+        <p class="md:text-center max-w-md">For education only. Content on this site does not replace professional medical advice.</p>
+        <button type="button" class="footer-top" data-back-top>Back to top <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+      </div>
+    </div>
+  </div>
+</footer>
+<div id="call-dialog" class="dialog items-end md:items-center justify-center p-0 md:p-6" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="call-title">
+  <div data-dialog-backdrop class="absolute inset-0 bg-ink/70 backdrop-blur-sm"></div>
+  <div data-dialog-panel class="relative w-full md:max-w-[960px] max-h-[94svh] overflow-y-auto rounded-t-[28px] md:rounded-[28px] bg-page grid md:grid-cols-5" data-lenis-prevent>
+    <div class="hidden md:flex md:col-span-2 relative flex-col justify-end p-8 bg-ink text-page overflow-hidden">
+      <div class="absolute inset-0 media grain"><img src="assets/about-inset.jpg" alt="" class="opacity-45"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/70 to-ink/20"></div>
+      <div class="relative">
+        <span class="eyebrow !text-sage">Discovery &amp; assessment call</span>
+        <p class="mt-4 text-2xl font-extrabold tracking-tight leading-tight">A relaxed conversation about your goals, history and support needs.</p>
+        <ul class="mt-6 space-y-3 text-sm text-page/80">
+          <li class="flex gap-3"><span class="tick !bg-white/10 !text-sage"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span>Talk to a NewKind expert</li>
+          <li class="flex gap-3"><span class="tick !bg-white/10 !text-sage"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span>Understand which program fits</li>
+          <li class="flex gap-3"><span class="tick !bg-white/10 !text-sage"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span>We confirm a time within one working day</li>
+        </ul>
+      </div>
+    </div>
+    <div class="md:col-span-3 p-6 sm:p-9">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <h2 id="call-title" class="text-3xl font-extrabold tracking-tight">Book your call</h2>
+          <p class="text-ink/65 mt-2 text-[15px]">We'll confirm a time within one working day.</p>
+        </div>
+        <button type="button" data-close-call class="w-10 h-10 shrink-0 rounded-full border border-ink/15 grid place-items-center hover:bg-ink hover:text-white transition-colors" aria-label="Close"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      </div>
+      <form name="discovery-call" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-ajax class="mt-7 grid sm:grid-cols-2 gap-4">
+        <input type="hidden" name="form-name" value="discovery-call">
+        <p class="hidden"><label>Don't fill this out: <input name="bot-field"></label></p>
+        <div class="sm:col-span-2"><label class="label" for="c-name">Full name</label><input id="c-name" name="name" required class="field" placeholder="Your full name" autocomplete="name"></div>
+        <div><label class="label" for="c-email">Email</label><input id="c-email" type="email" name="email" required class="field" placeholder="you@example.com" autocomplete="email"></div>
+        <div><label class="label" for="c-phone">Phone</label><input id="c-phone" type="tel" name="phone" required class="field" placeholder="+91" autocomplete="tel"></div>
+        <div><label class="label" for="c-prog">Program</label>
+          <select id="c-prog" name="program" required class="field"><option value="">Select a program</option><option>Fertility</option><option>Pregnancy</option><option>Weight Loss</option><option>I'm not sure yet</option></select></div>
+        <div><label class="label" for="c-sub">Subprogram</label><select id="c-sub" name="subprogram" class="field"></select></div>
+        <div class="sm:col-span-2"><label class="label" for="c-msg">Anything you'd like us to know? <span class="font-normal text-ink/50">(optional)</span></label>
+          <textarea id="c-msg" name="message" rows="3" class="field resize-none" placeholder="Share a little about where you are right now"></textarea></div>
+        <p data-form-status hidden class="sm:col-span-2 text-sm text-rose font-semibold"></p>
+        <div class="sm:col-span-2 flex flex-wrap items-center justify-between gap-4 pt-2">
+          <p class="text-xs text-ink/55 max-w-xs">For education only. This does not replace professional medical advice.</p>
+          <button type="submit" class="btn btn-primary">Request my call <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+        </div>
+      </form>
+      <div data-form-success hidden class="mt-10 text-center py-10">
+        <div class="mx-auto w-16 h-16 rounded-full bg-rose text-white grid place-items-center"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></div>
+        <h3 class="mt-6 text-2xl font-extrabold tracking-tight">Thank you — we've got your request.</h3>
+        <p class="mt-3 text-ink/65">A NewKind team member will reach out within one working day to confirm your call.</p>
+        <button type="button" data-close-call class="btn btn-ghost mt-8">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/vendor/gsap.min.js"></script>
+<script src="js/vendor/ScrollTrigger.min.js"></script>
+<script src="js/vendor/SplitText.min.js"></script>
+<script src="js/vendor/lenis.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

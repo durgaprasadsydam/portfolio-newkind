@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en" class="js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FAQs — NewKind</title>
+<meta name="description" content="Answers to common questions about NewKind’s personalized programs and how to get started.">
+<meta name="theme-color" content="#242833">
+<meta property="og:title" content="FAQs — NewKind">
+<meta property="og:description" content="Answers to common questions about NewKind’s personalized programs and how to get started.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Sora:wght@300..700&display=swap" rel="stylesheet">
+<script>
+  // If animation libraries fail to load, show everything instead of leaving it hidden.
+  setTimeout(function(){ if(!window.gsap) { document.documentElement.classList.remove('js'); } }, 3500);
+  try { if (sessionStorage.getItem('nk-transition')) document.documentElement.classList.add('is-transitioning'); } catch(e) {}
+</script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/tailwind.css">
+<noscript><style>[data-reveal],[data-stagger]>*,[data-split],[data-hero-in]{visibility:visible!important}</style></noscript>
+</head>
+<body class="font-sans antialiased ">
+<a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[200] focus:bg-white focus:px-4 focus:py-2 focus:rounded-lg">Skip to content</a>
+<div id="progress" aria-hidden="true"></div>
+<div id="curtain" aria-hidden="true"></div>
+
+<header id="nav" data-theme="light" class="nav-wrap fixed top-0 inset-x-0 z-50 px-3 sm:px-5 pt-4 sm:pt-6 flex justify-center pointer-events-none">
+  <div class="nav-shell nav-pill is-light pointer-events-auto w-full xl:w-auto max-w-site rounded-full pl-5 pr-2 py-2 flex items-center justify-between gap-8">
+    <a href="index.html" class="inline-flex items-center " aria-label="NewKind home">
+  <span class="logo-mark h-[20px] sm:h-[22px]" role="img" aria-label="NewKind"></span></a>
+    <nav class="hidden xl:flex items-center gap-7" aria-label="Main">
+      <div class="dropdown">
+        <a href="fertility.html" class="nav-link inline-flex items-center gap-1.5">Fertility<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></a>
+        <div class="dropdown-panel"><a href="fertility.html#natural-fertility">Natural Fertility<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a><a href="fertility.html#iui-ivf">IUI/IVF Preparation<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a><a href="fertility.html#egg-freezing">Egg Freezing Prep<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a><a href="fertility.html#pmos-balance">PMOS Balance<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a></div>
+      </div>
+      <div class="dropdown">
+        <a href="pregnancy-wellness.html" class="nav-link inline-flex items-center gap-1.5">Pregnancy<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></a>
+        <div class="dropdown-panel"><a href="pregnancy-wellness.html">Pregnancy Wellness<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a><a href="postpartum-recovery.html">Postpartum Recovery<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a></div>
+      </div>
+      <div class="dropdown">
+        <a href="weight-loss.html" class="nav-link inline-flex items-center gap-1.5">Weight Loss<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></a>
+        <div class="dropdown-panel"><a href="weight-loss.html#glp1">GLP-1 Weight Management<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a><a href="weight-loss.html#sustainable">Sustainable Weight Loss<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a></div>
+      </div>
+      <a href="index.html#about" class="nav-link">About Us</a>
+      <div class="dropdown">
+        <a href="journal.html" class="nav-link inline-flex items-center gap-1.5">Media<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></a>
+        <div class="dropdown-panel"><a href="journal.html">Journal<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a><a href="news-media.html">News &amp; Media<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a><a href="faqs.html">FAQs<span class="text-rose"><svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a></div>
+      </div>
+      <a href="contact.html" class="nav-link">Contact Us</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <button type="button" data-open-call class="btn-pill hidden sm:inline-flex">Book a call</button>
+      <button type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu" class="xl:hidden w-10 h-10 rounded-full grid place-items-center" aria-label="Open menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 8h16M4 16h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div id="mobile-menu" class="fixed inset-0 z-[60] bg-ink text-page xl:hidden flex flex-col" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="flex items-center justify-between px-6 pt-6">
+    <a href="index.html" class="inline-flex items-center " aria-label="NewKind home">
+  <span class="logo-mark h-[24px] sm:h-[26px]" role="img" aria-label="NewKind"></span></a>
+    <button type="button" data-menu-close class="w-11 h-11 rounded-xl grid place-items-center border border-white/15" aria-label="Close menu"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  </div>
+  <div class="flex-1 overflow-y-auto px-6 pt-8 pb-10" data-lenis-prevent>
+    <nav class="flex flex-col" aria-label="Mobile">
+        <div class="border-b border-white/10">
+          <button type="button" data-mm-sub aria-expanded="false" class="mm-link w-full flex items-center justify-between py-4 text-left">
+            <span class="text-[2.1rem] font-extrabold tracking-tight">Fertility</span>
+            <span class="mm-plus transition-transform duration-500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="h-0 overflow-hidden"><div class="pb-4 pl-1"><a href="fertility.html" class="block py-2 text-sage text-lg font-semibold">Overview</a><a href="fertility.html#natural-fertility" class="block py-2 text-page/70 hover:text-sage text-lg">Natural Fertility</a><a href="fertility.html#iui-ivf" class="block py-2 text-page/70 hover:text-sage text-lg">IUI/IVF Preparation</a><a href="fertility.html#egg-freezing" class="block py-2 text-page/70 hover:text-sage text-lg">Egg Freezing Prep</a><a href="fertility.html#pmos-balance" class="block py-2 text-page/70 hover:text-sage text-lg">PMOS Balance</a></div></div>
+        </div>
+        <div class="border-b border-white/10">
+          <button type="button" data-mm-sub aria-expanded="false" class="mm-link w-full flex items-center justify-between py-4 text-left">
+            <span class="text-[2.1rem] font-extrabold tracking-tight">Pregnancy</span>
+            <span class="mm-plus transition-transform duration-500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="h-0 overflow-hidden"><div class="pb-4 pl-1"><a href="pregnancy-wellness.html" class="block py-2 text-sage text-lg font-semibold">Overview</a><a href="pregnancy-wellness.html" class="block py-2 text-page/70 hover:text-sage text-lg">Pregnancy Wellness</a><a href="postpartum-recovery.html" class="block py-2 text-page/70 hover:text-sage text-lg">Postpartum Recovery</a></div></div>
+        </div>
+        <div class="border-b border-white/10">
+          <button type="button" data-mm-sub aria-expanded="false" class="mm-link w-full flex items-center justify-between py-4 text-left">
+            <span class="text-[2.1rem] font-extrabold tracking-tight">Weight Loss</span>
+            <span class="mm-plus transition-transform duration-500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="h-0 overflow-hidden"><div class="pb-4 pl-1"><a href="weight-loss.html" class="block py-2 text-sage text-lg font-semibold">Overview</a><a href="weight-loss.html#glp1" class="block py-2 text-page/70 hover:text-sage text-lg">GLP-1 Weight Management</a><a href="weight-loss.html#sustainable" class="block py-2 text-page/70 hover:text-sage text-lg">Sustainable Weight Loss</a></div></div>
+        </div>
+        <a href="index.html#about" class="mm-link border-b border-white/10 py-4"><span class="text-[2.1rem] font-extrabold tracking-tight">About Us</span></a>
+        <div class="border-b border-white/10">
+          <button type="button" data-mm-sub aria-expanded="false" class="mm-link w-full flex items-center justify-between py-4 text-left">
+            <span class="text-[2.1rem] font-extrabold tracking-tight">Media</span>
+            <span class="mm-plus transition-transform duration-500"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="h-0 overflow-hidden"><div class="pb-4 pl-1"><a href="journal.html" class="block py-2 text-page/70 hover:text-sage text-lg">Journal</a><a href="news-media.html" class="block py-2 text-page/70 hover:text-sage text-lg">News &amp; Media</a><a href="faqs.html" class="block py-2 text-page/70 hover:text-sage text-lg">FAQs</a></div></div>
+        </div>
+        <a href="contact.html" class="mm-link border-b border-white/10 py-4"><span class="text-[2.1rem] font-extrabold tracking-tight">Contact Us</span></a>
+    </nav>
+    <div class="mt-10 space-y-4">
+      <button type="button" data-open-call data-mm-fade class="btn btn-primary w-full">Book a discovery call <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+      <div data-mm-fade class="flex flex-col gap-1 text-page/70 text-sm pt-4">
+        <a href="tel:+919135353535">+91 9135353535</a><a href="mailto:hr@newkind.com">hr@newkind.com</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+
+<section class="relative bg-page px-2.5 sm:px-3 pt-2.5 sm:pt-3">
+  <div class="page-hero relative overflow-hidden rounded-[22px] sm:rounded-[30px] pt-36 pb-16 md:pt-48 md:pb-24">
+    <div class="page-hero-glow page-hero-glow-a" aria-hidden="true"></div>
+    <div class="page-hero-glow page-hero-glow-b" aria-hidden="true"></div>
+    <div class="relative z-10 max-w-site mx-auto px-5 sm:px-8">
+      <nav class="crumbs" aria-label="Breadcrumb" data-reveal><a href="index.html">Home</a><span aria-hidden="true">/</span><span>Media</span><span aria-hidden="true">/</span><span aria-current="page">FAQs</span></nav>
+      <span class="prog-eyebrow block mt-8" data-reveal>FAQs</span>
+      <h1 class="page-hero-title mt-4" data-split>Questions, <em>answered clearly.</em></h1>
+      <p class="mt-6 text-ink/70 text-lg md:text-xl max-w-2xl text-pretty" data-reveal>A simple place to understand how NewKind’s personalized healthcare approach works — from programs to getting started.</p>
+      <div class="mt-9 flex flex-wrap gap-2.5" data-reveal><a href="journal.html" class="media-tab">Journal</a><a href="news-media.html" class="media-tab">News &amp; Media</a><a href="faqs.html" class="media-tab is-active">FAQs</a></div>
+    </div>
+  </div>
+</section>
+<section class="relative bg-page py-16 md:py-24">
+  <div class="max-w-site mx-auto px-5 sm:px-8 grid lg:grid-cols-12 gap-12 lg:gap-16">
+    <aside class="lg:col-span-4 lg:sticky lg:top-32 self-start" data-reveal>
+      <label class="faq-search" for="faq-search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="faq-search" type="search" placeholder="Search questions" data-faq-search autocomplete="off"></label>
+      <nav class="mt-6 grid gap-1" aria-label="FAQ topics"><a href="#faq-about" class="faq-cat-link">About NewKind<span class="text-ink/40">5</span></a><a href="#faq-programs" class="faq-cat-link">Programs<span class="text-ink/40">3</span></a><a href="#faq-getting-started" class="faq-cat-link">Getting started<span class="text-ink/40">3</span></a></nav>
+      <div class="mt-8 rounded-[24px] why-panel p-7">
+        <p class="font-semibold text-lg">Still have questions?</p>
+        <p class="text-white/70 mt-2 text-sm leading-relaxed">Every situation is different. Speak with our team to understand the programme and whether it may be right for you.</p>
+        <button type="button" data-open-call class="btn btn-primary btn-sm mt-5">Book a discovery call <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+      </div>
+    </aside>
+    <div class="lg:col-span-8 grid gap-14" data-faq-root>
+      <div id="faq-about" class="faq-group scroll-mt-32" data-faq-group>
+        <h2 class="journal-title text-[clamp(1.6rem,2.6vw,2.2rem)]">About NewKind</h2>
+        <div class="mt-5 border-t border-ink/10" data-faq>
+        <div class="faq-item">
+          <button type="button" class="w-full flex items-start justify-between gap-6 py-6 text-left" aria-expanded="false">
+            <span class="faq-q text-lg md:text-xl font-bold tracking-tight">How does NewKind personalize my healthcare journey?</span>
+            <span class="faq-icon mt-0.5 shrink-0 w-9 h-9 rounded-full border border-ink/20 grid place-items-center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="faq-body"><p class="pb-6 pr-14 text-ink/70 leading-relaxed text-pretty">We start by understanding your health history, lifestyle, goals and concerns. Your care team then builds a plan across nutrition, movement, mental well-being and medical guidance that is specific to you — and refines it as you progress.</p></div>
+        </div>
+        <div class="faq-item">
+          <button type="button" class="w-full flex items-start justify-between gap-6 py-6 text-left" aria-expanded="false">
+            <span class="faq-q text-lg md:text-xl font-bold tracking-tight">What areas of health are included in the program?</span>
+            <span class="faq-icon mt-0.5 shrink-0 w-9 h-9 rounded-full border border-ink/20 grid place-items-center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="faq-body"><p class="pb-6 pr-14 text-ink/70 leading-relaxed text-pretty">Our programs cover fertility, pregnancy and postpartum recovery, and weight management. Within each, you can receive doctor consultations, personalized nutrition, live yoga and movement sessions, and psychology support.</p></div>
+        </div>
+        <div class="faq-item">
+          <button type="button" class="w-full flex items-start justify-between gap-6 py-6 text-left" aria-expanded="false">
+            <span class="faq-q text-lg md:text-xl font-bold tracking-tight">Who supports me throughout the program?</span>
+            <span class="faq-icon mt-0.5 shrink-0 w-9 h-9 rounded-full border border-ink/20 grid place-items-center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="faq-body"><p class="pb-6 pr-14 text-ink/70 leading-relaxed text-pretty">A multidisciplinary team — doctors, nutritionists, yoga and movement specialists, psychologists and a care coordinator who keeps everything connected and answers your questions along the way.</p></div>
+        </div>
+        <div class="faq-item">
+          <button type="button" class="w-full flex items-start justify-between gap-6 py-6 text-left" aria-expanded="false">
+            <span class="faq-q text-lg md:text-xl font-bold tracking-tight">Does my plan change as my needs change?</span>
+            <span class="faq-icon mt-0.5 shrink-0 w-9 h-9 rounded-full border border-ink/20 grid place-items-center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="faq-body"><p class="pb-6 pr-14 text-ink/70 leading-relaxed text-pretty">Yes. Your plan is reviewed through regular check-ins and progress tracking, and adjusted as your needs, results or circumstances change.</p></div>
+        </div>
+        <div class="faq-item">
+          <button type="button" class="w-full flex items-start justify-between gap-6 py-6 text-left" aria-expanded="false">
+            <span class="faq-q text-lg md:text-xl font-bold tracking-tight">Is the approach designed for everyday life?</span>
+            <span class="faq-icon mt-0.5 shrink-0 w-9 h-9 rounded-full border border-ink/20 grid place-items-center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="faq-body"><p class="pb-6 pr-14 text-ink/70 leading-relaxed text-pretty">Yes. Guidance is built to fit around work, family and your routine — small, sustainable changes rather than overwhelming overhauls.</p></div>
+        </div>
+        </div>
+      </div>
+      <div id="faq-programs" class="faq-group scroll-mt-32" data-faq-group>
+        <h2 class="journal-title text-[clamp(1.6rem,2.6vw,2.2rem)]">Programs</h2>
+        <div class="mt-5 border-t border-ink/10" data-faq>
+        <div class="faq-item">
+          <button type="button" class="w-full flex items-start justify-between gap-6 py-6 text-left" aria-expanded="false">
+            <span class="faq-q text-lg md:text-xl font-bold tracking-tight">Which programs does NewKind offer?</span>
+            <span class="faq-icon mt-0.5 shrink-0 w-9 h-9 rounded-full border border-ink/20 grid place-items-center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="faq-body"><p class="pb-6 pr-14 text-ink/70 leading-relaxed text-pretty">Three areas of care: Fertility (Natural Fertility, IUI/IVF Preparation, Egg Freezing Prep and PMOS Balance), Pregnancy (Pregnancy Wellness and Postpartum Recovery), and Weight Loss (GLP-1 Weight Management and Sustainable Weight Loss).</p></div>
+        </div>
+        <div class="faq-item">
+          <button type="button" class="w-full flex items-start justify-between gap-6 py-6 text-left" aria-expanded="false">
+            <span class="faq-q text-lg md:text-xl font-bold tracking-tight">How do I know which program is right for me?</span>
+            <span class="faq-icon mt-0.5 shrink-0 w-9 h-9 rounded-full border border-ink/20 grid place-items-center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="faq-body"><p class="pb-6 pr-14 text-ink/70 leading-relaxed text-pretty">Answer a few quick questions in our <a href="contact.html#program-finder" class="faq-link">program finder</a>, or book a discovery call and our team will help you understand which program fits your goals.</p></div>
+        </div>
+        <div class="faq-item">
+          <button type="button" class="w-full flex items-start justify-between gap-6 py-6 text-left" aria-expanded="false">
+            <span class="faq-q text-lg md:text-xl font-bold tracking-tight">Can a program work alongside the care I already receive?</span>
+            <span class="faq-icon mt-0.5 shrink-0 w-9 h-9 rounded-full border border-ink/20 grid place-items-center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="faq-body"><p class="pb-6 pr-14 text-ink/70 leading-relaxed text-pretty">Share details of your current care, and any treatment you are going through, during your discovery call. Our team will explain how a NewKind program can fit around it.</p></div>
+        </div>
+        </div>
+      </div>
+      <div id="faq-getting-started" class="faq-group scroll-mt-32" data-faq-group>
+        <h2 class="journal-title text-[clamp(1.6rem,2.6vw,2.2rem)]">Getting started</h2>
+        <div class="mt-5 border-t border-ink/10" data-faq>
+        <div class="faq-item">
+          <button type="button" class="w-full flex items-start justify-between gap-6 py-6 text-left" aria-expanded="false">
+            <span class="faq-q text-lg md:text-xl font-bold tracking-tight">How do I get started?</span>
+            <span class="faq-icon mt-0.5 shrink-0 w-9 h-9 rounded-full border border-ink/20 grid place-items-center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="faq-body"><p class="pb-6 pr-14 text-ink/70 leading-relaxed text-pretty">Book a discovery call. We’ll talk through your goals, then begin with an intake covering your health history, lifestyle, goals and any existing reports — before your care team builds your personalized plan.</p></div>
+        </div>
+        <div class="faq-item">
+          <button type="button" class="w-full flex items-start justify-between gap-6 py-6 text-left" aria-expanded="false">
+            <span class="faq-q text-lg md:text-xl font-bold tracking-tight">Should I share my existing medical reports?</span>
+            <span class="faq-icon mt-0.5 shrink-0 w-9 h-9 rounded-full border border-ink/20 grid place-items-center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="faq-body"><p class="pb-6 pr-14 text-ink/70 leading-relaxed text-pretty">Yes, if you have them. Existing reports are part of the intake and help your care team understand your health more completely from the start.</p></div>
+        </div>
+        <div class="faq-item">
+          <button type="button" class="w-full flex items-start justify-between gap-6 py-6 text-left" aria-expanded="false">
+            <span class="faq-q text-lg md:text-xl font-bold tracking-tight">How can I reach the NewKind team?</span>
+            <span class="faq-icon mt-0.5 shrink-0 w-9 h-9 rounded-full border border-ink/20 grid place-items-center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="faq-body"><p class="pb-6 pr-14 text-ink/70 leading-relaxed text-pretty">Call <a href="tel:+919135353535" class="faq-link">+91 9135353535</a>, email <a href="mailto:hr@newkind.com" class="faq-link">hr@newkind.com</a>, or send us a message from the <a href="contact.html" class="faq-link">contact page</a>.</p></div>
+        </div>
+        </div>
+      </div>
+      <p class="text-ink/60 text-lg" data-faq-empty hidden>No questions match your search. Try another word, or <a href="contact.html" class="faq-link">ask us directly</a>.</p>
+    </div>
+  </div>
+</section>
+<section class="relative px-3 sm:px-5 pb-3 sm:pb-5 bg-page">
+  <div class="relative rounded-[28px] md:rounded-[36px] overflow-hidden bg-ink text-page on-dark">
+    <div class="absolute inset-0 media grain" data-parallax="16"><img src="assets/final-cta.jpg" alt="A NewKind specialist in conversation with a client" loading="lazy" class="cta-photo"></div>
+    <div class="cta-copy relative z-10 px-6 sm:px-10 md:px-16 py-24 md:py-36">
+      <span class="eyebrow !text-sage" data-reveal>Start your journey</span>
+      <h2 class="h-display text-[clamp(2.3rem,4.8vw,4.4rem)] mt-6 text-balance" data-split>Your health. Your journey. <span class="accent-light">A more personal way forward.</span></h2>
+      <p class="mt-6 text-page/80 text-lg max-w-xl text-pretty" data-reveal>Take the first step toward a more connected and personalized healthcare experience with NewKind.</p>
+      <div class="mt-10 flex flex-wrap gap-3" data-reveal>
+        <button type="button" data-open-call class="btn btn-primary" data-magnetic>Book a discovery call <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+        <a href="contact.html" class="btn btn-secondary">Contact us <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="relative bg-page px-3 sm:px-5 pb-3 sm:pb-5">
+  <div class="footer-panel relative overflow-hidden rounded-[28px] md:rounded-[36px] text-white on-dark">
+    <div class="why-glow why-glow-a" aria-hidden="true"></div>
+    <div class="why-glow why-glow-b" aria-hidden="true"></div>
+    <div class="relative z-10 max-w-site mx-auto px-6 sm:px-10 lg:px-14 pt-16 md:pt-24">
+      <div class="grid lg:grid-cols-12 gap-10 lg:gap-16 items-end pb-14 md:pb-16 border-b border-white/10">
+        <div class="lg:col-span-7" data-reveal>
+          <a href="index.html" class="inline-flex items-center text-white" aria-label="NewKind home"><span class="logo-mark h-[28px]" role="img" aria-label="NewKind"></span></a>
+          <h2 class="footer-title mt-10">Healthcare that’s <em>built around you.</em></h2>
+        </div>
+        <div class="lg:col-span-5" data-reveal data-delay=".1">
+          <p class="text-white/70 text-lg leading-relaxed max-w-md">Not sure where to start? Speak with our team and we’ll help you find the right program.</p>
+          <div class="mt-7 flex flex-wrap gap-3">
+            <button type="button" data-open-call class="btn btn-primary">Book a discovery call <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+            <a href="contact.html" class="footer-ghost">Contact us</a>
+          </div>
+        </div>
+      </div>
+      <div class="grid lg:grid-cols-12 gap-12 lg:gap-10 py-14 md:py-16">
+        <div class="lg:col-span-4" data-reveal>
+          <h3 class="footer-label">Get in touch</h3>
+          <ul class="footer-contact mt-6 space-y-4">
+            <li><span class="footer-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></span><span>Madhapur, Hi-tech City,<br>Hyderabad - 500082</span></li>
+            <li><span class="footer-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span><a href="tel:+919135353535" class="footer-link">+91 9135353535</a></li>
+            <li><span class="footer-ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><a href="mailto:hr@newkind.com" class="footer-link">hr@newkind.com</a></li>
+          </ul>
+          <div class="footer-social mt-8"><a href="#" aria-label="NewKind on LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg></a><a href="#" aria-label="NewKind on Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5v.01"/></svg></a><a href="#" aria-label="NewKind on X"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4l16 16M20 4 4 20"/></svg></a><a href="#" aria-label="NewKind on YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="m10 9.5 5 2.5-5 2.5z"/></svg></a><a href="#" aria-label="NewKind on Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h-2.5A3.5 3.5 0 0 0 9 6.5V10H6.5v3.5H9V21h3.5v-7.5H15l.5-3.5h-3V7a1 1 0 0 1 1-1H15z"/></svg></a></div>
+        </div>
+        <div class="lg:col-span-8 grid grid-cols-2 md:grid-cols-3 gap-10" data-stagger="0.08">
+          <div>
+            <h3 class="footer-label">Company</h3>
+            <ul class="mt-6 space-y-3.5"><li><a href="index.html#about" class="footer-link">About</a></li><li><a href="index.html#how-it-works" class="footer-link">How it works</a></li><li><a href="journal.html" class="footer-link">Journal</a></li><li><a href="news-media.html" class="footer-link">News &amp; media</a></li><li><a href="faqs.html" class="footer-link">FAQs</a></li><li><a href="contact.html" class="footer-link">Contact us</a></li></ul>
+          </div>
+          <div>
+            <h3 class="footer-label">Programs</h3>
+            <ul class="mt-6 space-y-3.5"><li><a href="fertility.html#natural-fertility" class="footer-link">Natural Fertility</a></li><li><a href="fertility.html#iui-ivf" class="footer-link">IUI/IVF Preparation</a></li><li><a href="fertility.html#egg-freezing" class="footer-link">Egg Freezing Prep</a></li><li><a href="fertility.html#pmos-balance" class="footer-link">PMOS Balance</a></li><li><a href="pregnancy-wellness.html" class="footer-link">Pregnancy Wellness</a></li><li><a href="postpartum-recovery.html" class="footer-link">Postpartum Recovery</a></li><li><a href="weight-loss.html#glp1" class="footer-link">GLP-1 Weight Management</a></li><li><a href="weight-loss.html#sustainable" class="footer-link">Sustainable Weight Loss</a></li></ul>
+          </div>
+          <div>
+            <h3 class="footer-label">Policies</h3>
+            <ul class="mt-6 space-y-3.5"><li><a href="#" class="footer-link">Disclaimer</a></li><li><a href="#" class="footer-link">Terms &amp; Conditions</a></li><li><a href="#" class="footer-link">Privacy Policy</a></li><li><a href="#" class="footer-link">Refund Policy</a></li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom flex flex-col md:flex-row md:items-center justify-between gap-5 border-t border-white/10 text-sm text-white/55">
+        <p>© <span data-year>2026</span> NewKind. All rights reserved.</p>
+        <p class="md:text-center max-w-md">For education only. Content on this site does not replace professional medical advice.</p>
+        <button type="button" class="footer-top" data-back-top>Back to top <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+      </div>
+    </div>
+  </div>
+</footer>
+<div id="call-dialog" class="dialog items-end md:items-center justify-center p-0 md:p-6" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="call-title">
+  <div data-dialog-backdrop class="absolute inset-0 bg-ink/70 backdrop-blur-sm"></div>
+  <div data-dialog-panel class="relative w-full md:max-w-[960px] max-h-[94svh] overflow-y-auto rounded-t-[28px] md:rounded-[28px] bg-page grid md:grid-cols-5" data-lenis-prevent>
+    <div class="hidden md:flex md:col-span-2 relative flex-col justify-end p-8 bg-ink text-page overflow-hidden">
+      <div class="absolute inset-0 media grain"><img src="assets/about-inset.jpg" alt="" class="opacity-45"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/70 to-ink/20"></div>
+      <div class="relative">
+        <span class="eyebrow !text-sage">Discovery &amp; assessment call</span>
+        <p class="mt-4 text-2xl font-extrabold tracking-tight leading-tight">A relaxed conversation about your goals, history and support needs.</p>
+        <ul class="mt-6 space-y-3 text-sm text-page/80">
+          <li class="flex gap-3"><span class="tick !bg-white/10 !text-sage"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span>Talk to a NewKind expert</li>
+          <li class="flex gap-3"><span class="tick !bg-white/10 !text-sage"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span>Understand which program fits</li>
+          <li class="flex gap-3"><span class="tick !bg-white/10 !text-sage"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></span>We confirm a time within one working day</li>
+        </ul>
+      </div>
+    </div>
+    <div class="md:col-span-3 p-6 sm:p-9">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <h2 id="call-title" class="text-3xl font-extrabold tracking-tight">Book your call</h2>
+          <p class="text-ink/65 mt-2 text-[15px]">We'll confirm a time within one working day.</p>
+        </div>
+        <button type="button" data-close-call class="w-10 h-10 shrink-0 rounded-full border border-ink/15 grid place-items-center hover:bg-ink hover:text-white transition-colors" aria-label="Close"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      </div>
+      <form name="discovery-call" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-ajax class="mt-7 grid sm:grid-cols-2 gap-4">
+        <input type="hidden" name="form-name" value="discovery-call">
+        <p class="hidden"><label>Don't fill this out: <input name="bot-field"></label></p>
+        <div class="sm:col-span-2"><label class="label" for="c-name">Full name</label><input id="c-name" name="name" required class="field" placeholder="Your full name" autocomplete="name"></div>
+        <div><label class="label" for="c-email">Email</label><input id="c-email" type="email" name="email" required class="field" placeholder="you@example.com" autocomplete="email"></div>
+        <div><label class="label" for="c-phone">Phone</label><input id="c-phone" type="tel" name="phone" required class="field" placeholder="+91" autocomplete="tel"></div>
+        <div><label class="label" for="c-prog">Program</label>
+          <select id="c-prog" name="program" required class="field"><option value="">Select a program</option><option>Fertility</option><option>Pregnancy</option><option>Weight Loss</option><option>I'm not sure yet</option></select></div>
+        <div><label class="label" for="c-sub">Subprogram</label><select id="c-sub" name="subprogram" class="field"></select></div>
+        <div class="sm:col-span-2"><label class="label" for="c-msg">Anything you'd like us to know? <span class="font-normal text-ink/50">(optional)</span></label>
+          <textarea id="c-msg" name="message" rows="3" class="field resize-none" placeholder="Share a little about where you are right now"></textarea></div>
+        <p data-form-status hidden class="sm:col-span-2 text-sm text-rose font-semibold"></p>
+        <div class="sm:col-span-2 flex flex-wrap items-center justify-between gap-4 pt-2">
+          <p class="text-xs text-ink/55 max-w-xs">For education only. This does not replace professional medical advice.</p>
+          <button type="submit" class="btn btn-primary">Request my call <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+        </div>
+      </form>
+      <div data-form-success hidden class="mt-10 text-center py-10">
+        <div class="mx-auto w-16 h-16 rounded-full bg-rose text-white grid place-items-center"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg></div>
+        <h3 class="mt-6 text-2xl font-extrabold tracking-tight">Thank you — we've got your request.</h3>
+        <p class="mt-3 text-ink/65">A NewKind team member will reach out within one working day to confirm your call.</p>
+        <button type="button" data-close-call class="btn btn-ghost mt-8">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/vendor/gsap.min.js"></script>
+<script src="js/vendor/ScrollTrigger.min.js"></script>
+<script src="js/vendor/SplitText.min.js"></script>
+<script src="js/vendor/lenis.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
